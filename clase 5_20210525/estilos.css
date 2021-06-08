@@ -41,7 +41,7 @@ section{
 .seccion2{
     width: 800px;
     height: 200px;
-    margin-left: 0px;
+    margin-left: 5px;
     background-color: lightskyblue;
     
     
@@ -50,7 +50,7 @@ section{
 .seccion3 {
     width: 800px;
     height: 200px;
-    margin-left: -805px;
+    margin-left: -800px;
     margin-block-start: 200px;
     margin-block-end: 200px;
     background-color: lightsteelblue;
