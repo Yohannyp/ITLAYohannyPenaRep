@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+  
+<!-------------> 
+<!--  Header -->
+<!-------------> 
+<head>
+<title>FormDom Practica</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="FormDomEstilos.css">
+
+<!-------------> 
+<!--  Body   -->
+<!-------------> 
+
+<body>
+
+<!--  Main Class Contenedor  -->
+    <main class="contenedor flex" id="main">
+
+        <!--  Section info-personal   -->
+        <section class="info-personal flex flex-direction-column flex-align-center" id="seccion01">
+            <img class="avatar" src="HWSize.jpg" alt="avatar" id="imagen01">
+            <h1 id="nombre">Practica</h1>
+            <p> 💻 Form y Dom </p>
+            <hr class="linea-divisora">
+            <h2>Requisitos</h2>
+            <p>
+                Esta Práctica consiste en  crear un formulario el cual tendrá 3 campos los
+                cuales los usaremos para modificar las propiedades de un elemento HTML DIV.
+            </p>
+
+            <h2>Propiedades a Desplegar</h2>
+            <ul>
+                <li>El Color de fondo</li>
+                <li>El tamaño de Fuentes</li>
+             
+             </ul>
+
+            <h2>Propiedades a Cambiar</h2>
+            <ul>
+                <li>Altura (Height)</li>
+                <li>Ancho (Width)</li>
+                <li>Mensaje dentro del Div</li>
+            </ul>
+        </section>
+        
+        <!--  Section info-general   -->
+        <section class="info-general flex flex-direction-column" id="seccion02">
+             <article>
+                <h3><i class="fas fa-book"></i> Formulario Propiedades</h3>
+                
+                <form action =""></form>
+                <h5>
+                    Propiedades Seccion Formulario
+                </h5>
+              
+                 <p> Color de Fondo es</p> 
+                 <p> Tamaño de Fuentes es</p>
+                           
+
+                <h5>
+                     Propiedades Figura
+                </h5>
+                                                 
+                <p>
+                 <label for="">Entre la Altura(Heigth) en Pixel</label>  
+                </p>            
+                <input type="text" nombre="heigth" id="altura">
+                
+                <p>
+                 <label for="">Entre la Ancho(Width) en pixel</label>
+                </p>
+                 <input type="text" nombre="width" id="ancho">
+                 
+                 <p>
+                    <label for="">Entre Mensaje</label>
+                   </p>
+                    <input type="text" nombre="Message" id="mensaje">
+
+                <p>Presione para ejecutar</p>
+                <button type="button" id="button01" >Aceptar</button>
+                <hr>
+                
+                </form>
+                <div id=figura>     
+                  <p>
+                      Figura
+                  </p>                 
+                </div>
+
+           </article>  
+        </section>
+    </main>
+
+<script src="FormDom.js"> </script>
+
+</body>
+
+</html> 
